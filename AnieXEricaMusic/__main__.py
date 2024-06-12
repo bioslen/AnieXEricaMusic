@@ -41,7 +41,7 @@ async def init():
     await userbot.start()
     await AMBOT.start()
     try:
-        await AMBOT.stream_call("https://graph.org/file/946f1cc229bbeba19b802.mp4")
+        await AMBOT.stream_call("https://te.legra.ph/file/8617d197bd64f5d25a6ab.mp4")
     except NoActiveGroupCall:
         LOGGER("AnieXEricaMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
